@@ -2,13 +2,14 @@ Hi, I’m Sashika 👋
 
 Programmer • Data Analyst • Designer • Editor
 
-I build clean, efficient systems and design meaningful digital experiences.
+• I build clean, efficient systems and design meaningful digital experiences.
+• AI & Data Science Student @ Robert Gordon University
 
 
 💻 Programming & Technical
 
 	•	Python Development
-    •	Web Development
+	•	Web Development
 	•	Data Analysis & Visualization
 	•	Object-Oriented Programming
 	•	System Analysis & Design
@@ -22,14 +23,14 @@ I build clean, efficient systems and design meaningful digital experiences.
 	•	Branding & Logo Design
 	•	Color Grading
 	•	Professional Video Editing
-    •	Motion Design
+	•	Motion Design
 
 
 💼 Experience
 
-    •	2+ Years in Web Development 
+	•	2+ Years in Web Development 
 	•	5+ Years in Professional Video Vditing
-    •	5+ Years in Graphic Design
+	•	5+ Years in Graphic Design
 
 
 🚀 Focus
