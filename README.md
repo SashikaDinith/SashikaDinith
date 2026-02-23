@@ -1,16 +1,44 @@
-## Hi there 👋
+Hi, I’m Sashika 👋
 
-<!--
-**SashikaDinith/SashikaDinith** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Programmer • Data Analyst • Designer • Editor
 
-Here are some ideas to get you started:
+I build clean, efficient systems and design meaningful digital experiences.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+💻 Programming & Technical
+
+	•	Python Development
+    •	Web Development
+	•	Data Analysis & Visualization
+	•	Object-Oriented Programming
+	•	System Analysis & Design
+	•	Algorithmic Problem Solving
+
+
+🎨 Design
+
+	•	UI/UX Design
+	•	Wireframing & Prototyping
+	•	Branding & Logo Design
+	•	Color Grading
+	•	Professional Video Editing
+    •	Motion Design
+
+
+💼 Experience
+
+    •	2+ Years in Web Development 
+	•	5+ Years in Professional Video Vditing
+    •	5+ Years in Graphic Design
+
+
+🚀 Focus
+
+Building scalable systems that combine logic, usability, and strategy.
+
+
+
+🔗 Connect
+
+LinkedIn: https://www.linkedin.com/in/sashika-dinith-66ba00343?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+
