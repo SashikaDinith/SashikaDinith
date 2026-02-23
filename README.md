@@ -2,7 +2,6 @@ Hi, I’m Sashika 👋
 
 Programmer • Data Analyst • Designer • Editor
 
-• I build clean, efficient systems and design meaningful digital experiences.
 • AI & Data Science Student @ Robert Gordon University
 
 
