@@ -1,0 +1,47 @@
+name: Generate profile assets
+
+# Builds the live stat panels (stats, streak, languages) and the framed contribution
+# snake, then publishes them together to the `output` branch (one job, so neither
+# overwrites the other).
+on:
+  schedule:
+    # Hourly, off the top of the hour: GitHub delays scheduled runs at busy times.
+    - cron: "41 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Generate stat cards
+        env:
+          # Optional STATS_TOKEN (a personal token with read:user) also counts PRs and issues
+          # in private and organisation repos; the default token only sees public ones.
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/stat_cards.py "${{ github.repository_owner }}" dist
+
+      - name: Generate snake SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake-dark.svg?color_snake=#00DFFF&color_dots=#141c25,#0a4a5a,#0a8aa5,#00c4e0,#7aefff
+
+      - name: Frame the snake to match the README
+        run: python3 .github/scripts/frame_snake.py dist/github-snake-dark.svg dist/snake.svg
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

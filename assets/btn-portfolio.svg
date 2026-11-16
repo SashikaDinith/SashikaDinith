@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="56" viewBox="0 0 250 56" role="img" aria-label="Portfolio · soon">
+<title>Portfolio · soon</title>
+<style>
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }</style>
+<rect x="0.5" y=".5" width="240.0" height="55" rx="12" fill="#0a0e13" stroke="#2b3947" stroke-dasharray="4 4"/><svg x="40.1" y="19" width="18" height="18" viewBox="0 0 24 24" overflow="visible"><g fill="none" stroke="#566370" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 0-20M2 12h20"/></g></svg><text x="68.1" y="33.5" font-family="'Inter', 'SF Pro Display', 'Segoe UI Variable Display', 'Segoe UI', system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#566370">Portfolio · soon</text>
+</svg>
